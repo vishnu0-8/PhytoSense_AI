@@ -1,0 +1,1136 @@
+{
+    "Tomato___Bacterial_spot": {
+        "type": "disease",
+        "crop": "Tomato",
+        "disease": "Bacterial Spot",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer",
+            "quantity": "Use a soil-test-based nutrient recommendation",
+            "note": "Fertilizer supports plant nutrition but does not cure bacterial spot."
+        },
+        "treatment": {
+            "recommendation": "Use disease-free seed and appropriate bacterial-disease management practices.",
+            "note": "TNAU reports Streptocycline 40–100 ppm (20 g/acre) for bacterial leaf spot. Verify current product registration and follow the product label."
+        },
+        "prevention": [
+            "Use disease-free seed and healthy planting material.",
+            "Remove and destroy infected plant material.",
+            "Avoid working with plants when foliage is wet.",
+            "Avoid unnecessary overhead irrigation.",
+            "Maintain good field sanitation."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Tomato Bacterial Leaf Spot — Crop Protection",
+                "url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_11.html"
+            },
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            }
+        ]
+    },
+    "Tomato___Early_blight": {
+        "type": "disease",
+        "crop": "Tomato",
+        "disease": "Early Blight",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer",
+            "quantity": "Use a soil-test-based nutrient recommendation",
+            "note": "Fertilizer supports crop nutrition; it is not a cure for early blight."
+        },
+        "treatment": {
+            "recommendation": "Copper oxychloride or Metalaxyl 4% + Mancozeb 64% WP are listed by ICAR for management of tomato early blight and fruit rot.",
+            "note": "ICAR lists Copper Oxychloride at 3 g/L or Metalaxyl 4% + Mancozeb 64% WP at 1.5 g/L in the cited advisory. Verify current product registration and follow the product label."
+        },
+        "prevention": [
+            "Remove infected plant material.",
+            "Avoid overhead irrigation.",
+            "Maintain good air circulation.",
+            "Use healthy planting material.",
+            "Practice crop rotation where practical."
+        ],
+        "sources": [
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            },
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Tomato Disease Management",
+                "url": "https://agritech.tnau.ac.in/org_farm/orgfarm_tomato_diseases.html"
+            }
+        ]
+    },
+    "Tomato___Late_blight": {
+        "type": "disease",
+        "crop": "Tomato",
+        "disease": "Late Blight",
+        "fertilizer": {
+            "recommendation": "Balanced crop nutrition",
+            "quantity": "Use a soil-test-based nutrient recommendation",
+            "note": "Fertilizer does not cure late blight."
+        },
+        "treatment": {
+            "recommendation": "TNAU lists Cyazofamid, Azoxystrobin, Mancozeb and Zineb among disease-management options for tomato late blight.",
+            "note": "Use only currently registered products for tomato late blight and follow the product label and local agricultural advice."
+        },
+        "prevention": [
+            "Provide proper field drainage.",
+            "Remove infected plant debris.",
+            "Avoid prolonged leaf wetness.",
+            "Use crop rotation where practical.",
+            "Monitor plants during cool and wet weather."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Tomato Late Blight — Integrated Disease Management",
+                "url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html"
+            },
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            }
+        ]
+    },
+    "Tomato___Leaf_Mold": {
+        "type": "disease",
+        "crop": "Tomato",
+        "disease": "Leaf Mold",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer",
+            "quantity": "Use a soil-test-based nutrient recommendation",
+            "note": "Fertilizer supports crop nutrition but does not cure leaf mold."
+        },
+        "treatment": {
+            "recommendation": "Use an appropriate fungicide registered for tomato leaf mold where recommended locally.",
+            "note": "Improve environmental conditions and follow the current product label and local agricultural recommendations."
+        },
+        "prevention": [
+            "Improve ventilation around plants.",
+            "Reduce excessive humidity.",
+            "Avoid prolonged leaf wetness.",
+            "Remove infected leaves and plant debris.",
+            "Use clean planting material."
+        ],
+        "sources": [
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            },
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Tomato Crop Protection",
+                "url": "https://www.agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_veg_tomato.html"
+            }
+        ]
+    },
+    "Tomato___Septoria_leaf_spot": {
+        "type": "disease",
+        "crop": "Tomato",
+        "disease": "Septoria Leaf Spot",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer",
+            "quantity": "Use a soil-test-based nutrient recommendation",
+            "note": "Fertilizer supports plant nutrition but does not cure Septoria leaf spot."
+        },
+        "treatment": {
+            "recommendation": "Fluxapyroxad 250 g/L + Pyraclostrobin 250 g/L SC is listed by TNAU as a chemical management option.",
+            "note": "TNAU lists 200–250 ml/ha. Verify current registration and follow the product label before use."
+        },
+        "prevention": [
+            "Remove and destroy affected plant parts.",
+            "Remove infected crop debris.",
+            "Avoid unnecessary overhead irrigation.",
+            "Use healthy planting material.",
+            "Maintain good field sanitation."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Tomato Septoria Leaf Spot — Integrated Disease Management",
+                "url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_4.html"
+            }
+        ]
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+        "type": "pest",
+        "crop": "Tomato",
+        "disease": "Spider Mites — Two-Spotted Spider Mite",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer",
+            "quantity": "Use a soil-test-based nutrient recommendation",
+            "note": "Fertilizer does not control spider mites."
+        },
+        "treatment": {
+            "recommendation": "Monitor plants regularly and use locally registered mite-management products when treatment is justified.",
+            "note": "Use integrated pest management and follow the current product label."
+        },
+        "prevention": [
+            "Regularly inspect the underside of leaves.",
+            "Remove heavily infested plant material where practical.",
+            "Maintain appropriate plant moisture.",
+            "Control weeds that may harbor pests.",
+            "Use integrated pest-management practices."
+        ],
+        "sources": [
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            }
+        ]
+    },
+    "Tomato___Target_Spot": {
+        "type": "disease",
+        "crop": "Tomato",
+        "disease": "Target Spot",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer",
+            "quantity": "Use a soil-test-based nutrient recommendation",
+            "note": "Fertilizer supports crop nutrition but does not cure target spot."
+        },
+        "treatment": {
+            "recommendation": "Use a fungicide registered for tomato target spot where recommended locally.",
+            "note": "Follow the current product label and local agricultural guidance."
+        },
+        "prevention": [
+            "Remove infected leaves and crop debris.",
+            "Improve air circulation.",
+            "Avoid prolonged leaf wetness.",
+            "Use healthy planting material.",
+            "Practice crop rotation where practical."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Tomato Crop Protection",
+                "url": "https://www.agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_veg_tomato.html"
+            }
+        ]
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+        "type": "disease",
+        "crop": "Tomato",
+        "disease": "Tomato Yellow Leaf Curl Virus",
+        "fertilizer": {
+            "recommendation": "Maintain balanced crop nutrition",
+            "quantity": "Use a soil-test-based nutrient recommendation",
+            "note": "Fertilizer does not cure a viral infection."
+        },
+        "treatment": {
+            "recommendation": "Remove infected plants and manage the insect vector responsible for virus transmission.",
+            "note": "ICAR recommends vector control and removal of infected plants for tomato leaf-curl virus."
+        },
+        "prevention": [
+            "Remove and destroy infected plants.",
+            "Monitor and manage whitefly populations.",
+            "Use resistant or tolerant varieties where available.",
+            "Keep the field and surrounding area free of weed hosts.",
+            "Use healthy planting material."
+        ],
+        "sources": [
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            },
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Tomato Crop Protection",
+                "url": "https://www.agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_veg_tomato.html"
+            }
+        ]
+    },
+    "Tomato___Tomato_mosaic_virus": {
+        "type": "disease",
+        "crop": "Tomato",
+        "disease": "Tomato Mosaic Virus",
+        "fertilizer": {
+            "recommendation": "Maintain balanced crop nutrition",
+            "quantity": "Use a soil-test-based nutrient recommendation",
+            "note": "Fertilizer does not cure a viral infection."
+        },
+        "treatment": {
+            "recommendation": "Remove infected plants and use sanitation and disease-prevention practices.",
+            "note": "There is no fertilizer treatment that cures tomato mosaic virus."
+        },
+        "prevention": [
+            "Use healthy, disease-free seed and planting material.",
+            "Remove infected plants.",
+            "Disinfect tools and equipment.",
+            "Avoid handling healthy plants immediately after infected plants.",
+            "Control weeds that can act as virus hosts."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Tomato Crop Protection",
+                "url": "https://www.agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_veg_tomato.html"
+            }
+        ]
+    },
+    "Tomato___healthy": {
+        "type": "healthy",
+        "crop": "Tomato",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer based on crop requirements and soil test",
+            "quantity": "Use the recommended fertilizer dose for the tomato variety, production system, and soil-test results.",
+            "note": "Healthy plants should receive balanced nutrition; avoid unnecessary fertilizer application."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular crop monitoring."
+        },
+        "prevention": [
+            "Use healthy planting material.",
+            "Maintain balanced nutrition.",
+            "Monitor plants regularly for early disease or pest symptoms.",
+            "Maintain good field sanitation.",
+            "Use appropriate irrigation and drainage."
+        ],
+        "sources": [
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            }
+        ]
+    },
+    "Potato___Early_blight": {
+        "type": "disease",
+        "crop": "Potato",
+        "disease": "Early Blight",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer based on soil-test results",
+            "quantity": "Use a soil-test-based fertilizer recommendation for the potato crop and production system.",
+            "note": "Fertilizer supports crop nutrition but does not cure early blight."
+        },
+        "treatment": {
+            "recommendation": "TNAU recommends early spraying with Zineb or Captan 0.2% for potato early blight.",
+            "note": "TNAU also reports Mancozeb 2 g/L or Chlorothalonil 2 g/L at 45, 60 and 75 days after planting. Verify current registration and follow the current product label."
+        },
+        "prevention": [
+            "Use disease-free seed tubers.",
+            "Remove and destroy infected plant debris.",
+            "Maintain good field sanitation.",
+            "Maintain appropriate crop nutrition and plant vigor.",
+            "Practice crop rotation where practical."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Potato Early Blight — Crop Protection",
+                "url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_veg_potato_2.html"
+            },
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            }
+        ]
+    },
+    "Potato___Late_blight": {
+        "type": "disease",
+        "crop": "Potato",
+        "disease": "Late Blight",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer based on soil-test results",
+            "quantity": "Use a soil-test-based fertilizer recommendation for the potato crop and production system.",
+            "note": "Fertilizer supports crop nutrition but does not cure late blight."
+        },
+        "treatment": {
+            "recommendation": "Mancozeb and Chlorothalonil are listed by ICAR and TNAU for potato late-blight management.",
+            "note": "ICAR lists Mancozeb 2 g/L or Chlorothalonil 2.5 g/L water in its cited advisory. Verify current registration, formulation and product label before application."
+        },
+        "prevention": [
+            "Use healthy seed tubers.",
+            "Remove infected crop debris.",
+            "Maintain good field drainage.",
+            "Avoid prolonged leaf wetness.",
+            "Monitor crops closely during cool and wet conditions."
+        ],
+        "sources": [
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            },
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Potato Disease Management",
+                "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html"
+            }
+        ]
+    },
+    "Potato___healthy": {
+        "type": "healthy",
+        "crop": "Potato",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer based on crop requirements and soil-test results",
+            "quantity": "ICAR gives an example for a specific production context of 10–15 tonne FYM/ha plus 90 kg urea, 300 kg SSP and 65 kg MOP as basal fertilizer, followed by urea top dressing of 70 kg/ha and 50 kg/ha at 30 and 50 DAS.",
+            "note": "These figures are context-specific and should not be treated as a universal dose. Use soil-test results and local agricultural recommendations."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular crop monitoring for diseases and pests."
+        },
+        "prevention": [
+            "Use healthy certified seed tubers.",
+            "Maintain balanced crop nutrition.",
+            "Provide suitable irrigation and drainage.",
+            "Monitor plants regularly.",
+            "Maintain good field sanitation."
+        ],
+        "sources": [
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            },
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Potato Horticulture and Disease Management",
+                "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html"
+            }
+        ]
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+        "type": "disease",
+        "crop": "Corn (Maize)",
+        "disease": "Cercospora Leaf Spot / Gray Leaf Spot",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer based on soil and crop requirements",
+            "quantity": "ICAR's 2025 Kharif maize advisory gives an example of 120 kg N, 60 kg P2O5 and 40 kg K2O per hectare for a specified maize production context. Use local soil-test recommendations for the actual field.",
+            "note": "Fertilizer supports crop nutrition and does not cure gray leaf spot."
+        },
+        "treatment": {
+            "recommendation": "Use resistant or tolerant maize hybrids where available and apply disease-management fungicides only when recommended locally.",
+            "note": "A disease-specific fungicide rate was not added here without a directly verified source for this exact Cercospora/gray-leaf-spot class."
+        },
+        "prevention": [
+            "Use resistant or tolerant varieties where available.",
+            "Remove or manage infected maize residues.",
+            "Maintain good field sanitation.",
+            "Use healthy seed.",
+            "Practice crop rotation where practical."
+        ],
+        "sources": [
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            }
+        ]
+    },
+    "Corn_(maize)___Common_rust_": {
+        "type": "disease",
+        "crop": "Corn (Maize)",
+        "disease": "Common Rust",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer based on soil-test results",
+            "quantity": "ICAR's 2025 Kharif maize advisory gives an example of 120 kg N, 60 kg P2O5 and 40 kg K2O per hectare for a specified maize production context.",
+            "note": "Use soil-test and locally recommended nutrient doses. Fertilizer does not cure common rust."
+        },
+        "treatment": {
+            "recommendation": "TNAU lists kresoxim-methyl 44.3% SC @ 1 ml/L, tebuconazole @ 1 ml/L, or chlorothalonil/mancozeb at 2 ml/L for common rust.",
+            "note": "TNAU recommends application at 35 and 50 DAS. Verify current registration, formulation and product label before use."
+        },
+        "prevention": [
+            "Remove alternate hosts where practical.",
+            "Collect and destroy infected crop remains.",
+            "Use healthy seed.",
+            "Monitor the crop regularly.",
+            "Use resistant varieties where available."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Maize Common Rust — Crop Protection",
+                "url": "https://www.agritech.tnau.ac.in/crop_protection/maize_disease_new/maize_4.html"
+            },
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            }
+        ]
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+        "type": "disease",
+        "crop": "Corn (Maize)",
+        "disease": "Northern Leaf Blight",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer based on soil-test results",
+            "quantity": "ICAR's 2025 Kharif maize advisory gives an example of 120 kg N, 60 kg P2O5 and 40 kg K2O per hectare for a specified maize production context.",
+            "note": "Use soil-test and locally recommended nutrient doses. Fertilizer does not cure Northern Leaf Blight."
+        },
+        "treatment": {
+            "recommendation": "TNAU lists mancozeb or zineb @ 2–4 g/L or propiconazole 25% EC @ 1 ml/L.",
+            "note": "TNAU recommends spraying at 35 and 50 DAS. Verify current registration and follow the product label."
+        },
+        "prevention": [
+            "Burn or bury infected maize stubbles where appropriate.",
+            "Use healthy seed.",
+            "Use resistant varieties where available.",
+            "Maintain field sanitation.",
+            "Practice crop rotation where practical."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Maize Leaf Blight — Crop Protection",
+                "url": "https://agritech.tnau.ac.in/crop_protection/maize_disease_new/maize_2.html"
+            },
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            }
+        ]
+    },
+    "Corn_(maize)___healthy": {
+        "type": "healthy",
+        "crop": "Corn (Maize)",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer based on soil-test results and maize production system",
+            "quantity": "ICAR's 2025 Kharif advisory gives an example of 120 kg N, 60 kg P2O5 and 40 kg K2O per hectare for a specified maize production context. Use local soil-test recommendations for the actual field.",
+            "note": "The exact fertilizer requirement depends on soil, irrigation, variety and production system."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular crop monitoring."
+        },
+        "prevention": [
+            "Use healthy seed.",
+            "Maintain balanced crop nutrition.",
+            "Maintain proper irrigation and drainage.",
+            "Monitor plants regularly for pests and diseases.",
+            "Maintain good field sanitation."
+        ],
+        "sources": [
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR-En-Kharif-Agro-Advisories-for-Farmers-2025.pdf"
+            }
+        ]
+    },
+    "Apple___Apple_scab": {
+        "type": "disease",
+        "crop": "Apple",
+        "disease": "Apple Scab",
+        "fertilizer": {
+            "recommendation": "Balanced apple orchard nutrition based on soil-test results",
+            "quantity": "Use soil-test-based nitrogen and potassium recommendations. ICAR recommends applying the second nitrogen dose and remaining potassium 3–4 weeks after fruit set according to soil-test results.",
+            "note": "Fertilizer supports tree nutrition but does not cure apple scab."
+        },
+        "treatment": {
+            "recommendation": "ICAR recommends preventive fungicides for apple scab and foliar diseases, including Mancozeb 75 WP, Captan 50 WP or Zineb 75 WP before the onset of rains.",
+            "note": "ICAR lists 0.3% for these products in its 2025 advisory. Verify current registration and follow the product label."
+        },
+        "prevention": [
+            "Collect and manage fallen infected leaves.",
+            "Maintain good orchard sanitation.",
+            "Prune to improve canopy air circulation.",
+            "Monitor the orchard before and during wet periods.",
+            "Use scab-resistant varieties where suitable."
+        ],
+        "sources": [
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"
+            },
+            {
+                "organization": "Penn State Extension",
+                "document": "Apple Disease Control Toolbox - Fungicide Timing",
+                "url": "https://extension.psu.edu/apple-disease-control-toolbox-fungicide-timing"
+            }
+        ]
+    },
+    "Apple___Black_rot": {
+        "type": "disease",
+        "crop": "Apple",
+        "disease": "Black Rot",
+        "fertilizer": {
+            "recommendation": "Balanced apple orchard nutrition based on soil-test results",
+            "quantity": "Use soil-test-based fertilizer recommendations appropriate for the tree age, orchard system and expected crop load.",
+            "note": "Fertilizer supports healthy tree growth but does not cure black rot."
+        },
+        "treatment": {
+            "recommendation": "Use an integrated apple-rot management program with appropriate registered fungicides and orchard sanitation.",
+            "note": "Penn State Extension identifies bloom through cover-spray periods as important timings for black-rot management. Follow the current local product label."
+        },
+        "prevention": [
+            "Remove mummified fruit from trees and orchard floor.",
+            "Prune and remove dead or diseased wood.",
+            "Maintain good air circulation through canopy management.",
+            "Avoid leaving infected plant material in the orchard.",
+            "Monitor trees regularly for symptoms."
+        ],
+        "sources": [
+            {
+                "organization": "Penn State Extension",
+                "document": "Apple Disease Control Toolbox - Fungicide Timing",
+                "url": "https://extension.psu.edu/apple-disease-control-toolbox-fungicide-timing"
+            },
+            {
+                "organization": "University of Minnesota Extension",
+                "document": "Diagnosing and Managing Fruit Tree Trunk Injuries",
+                "url": "https://blog-fruit-vegetable-ipm.extension.umn.edu/2020/04/diagnosing-and-managing-apple-trunk.html"
+            }
+        ]
+    },
+    "Apple___Cedar_apple_rust": {
+        "type": "disease",
+        "crop": "Apple",
+        "disease": "Cedar-Apple Rust",
+        "fertilizer": {
+            "recommendation": "Balanced apple orchard nutrition based on soil-test results",
+            "quantity": "Use soil-test-based fertilizer recommendations. For older trees, ICAR gives an example of 100 kg FYM/tree, 1.5 kg urea/tree, 2 kg SSP/tree and 1.7 kg MOP/tree, with nitrogen split around flowering and fruit development.",
+            "note": "The ICAR quantities are for a specific orchard context and tree age and should not be treated as a universal dose."
+        },
+        "treatment": {
+            "recommendation": "Use an apple disease-management program appropriate for cedar-apple rust and local growing conditions.",
+            "note": "Management should emphasize resistant varieties and reducing nearby cedar/juniper inoculum. Use fungicides only where locally recommended and registered."
+        },
+        "prevention": [
+            "Plant resistant apple varieties where available.",
+            "Inspect and prune infected branches where practical.",
+            "Reduce nearby cedar/juniper hosts where this is feasible.",
+            "Maintain good orchard sanitation.",
+            "Monitor young leaves during wet spring conditions."
+        ],
+        "sources": [
+            {
+                "organization": "University of Minnesota Extension",
+                "document": "Cedar-apple rust and related rust diseases",
+                "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust"
+            },
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Rabi Agro-Advisory",
+                "url": "https://www.icar.gov.in/sites/default/files/2022-09/Rabi-Agro-Advisory-2021-22_0.pdf"
+            }
+        ]
+    },
+    "Apple___healthy": {
+        "type": "healthy",
+        "crop": "Apple",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "Balanced apple orchard nutrition based on soil-test results",
+            "quantity": "For apple trees older than 10 years, an ICAR advisory gives an example of 100 kg FYM/tree, 1.5 kg urea/tree, 2 kg SSP/tree and 1.7 kg MOP/tree. Half of the nitrogen is applied before flowering and the remaining half after one month.",
+            "note": "This is a context-specific ICAR example, not a universal dose. Use soil testing, tree age and local orchard recommendations."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular monitoring for pests, diseases and nutrient deficiencies."
+        },
+        "prevention": [
+            "Maintain good orchard sanitation.",
+            "Prune trees to maintain suitable canopy structure.",
+            "Use balanced, soil-test-based fertilization.",
+            "Monitor trees regularly.",
+            "Remove dead or diseased branches during pruning."
+        ],
+        "sources": [
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Rabi Agro-Advisory",
+                "url": "https://www.icar.gov.in/sites/default/files/2022-09/Rabi-Agro-Advisory-2021-22_0.pdf"
+            },
+            {
+                "organization": "Indian Council of Agricultural Research (ICAR)",
+                "document": "ICAR Kharif Agro-Advisories for Farmers 2025",
+                "url": "https://www.icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"
+            }
+        ]
+    },
+    "Grape___Black_rot": {
+        "type": "disease",
+        "crop": "Grape",
+        "disease": "Black Rot",
+        "fertilizer": {
+            "recommendation": "Balanced grape nutrition based on soil and tissue tests",
+            "quantity": "Use a vineyard-specific nutrient program based on soil and tissue analysis.",
+            "note": "Fertilizer supports vine nutrition but does not cure black rot."
+        },
+        "treatment": {
+            "recommendation": "Use an integrated black-rot management program with locally registered fungicides when treatment is justified.",
+            "note": "Remove infection sources such as mummified fruit and infected plant material. Follow the current product label."
+        },
+        "prevention": [
+            "Remove and destroy mummified fruit.",
+            "Remove infected plant material.",
+            "Improve canopy air circulation.",
+            "Avoid prolonged leaf wetness.",
+            "Monitor vines regularly."
+        ],
+        "sources": [
+            {
+                "organization": "University of Minnesota Extension",
+                "document": "Black rot on grapes",
+                "url": "https://blog-fruit-vegetable-ipm.extension.umn.edu/2026/06/black-rot-on-grapes-guignardia-bidwellii.html"
+            }
+        ]
+    },
+    "Grape___Esca_(Black_Measles)": {
+        "type": "disease",
+        "crop": "Grape",
+        "disease": "Esca (Black Measles)",
+        "fertilizer": {
+            "recommendation": "Balanced grape nutrition based on soil and tissue tests",
+            "quantity": "Use vineyard-specific soil and tissue testing to determine nutrient requirements.",
+            "note": "Fertilizer does not cure Esca."
+        },
+        "treatment": {
+            "recommendation": "Manage affected vines through sanitation, pruning and removal of severely diseased wood.",
+            "note": "Consult local viticulture recommendations for trunk-disease management."
+        },
+        "prevention": [
+            "Use healthy planting material.",
+            "Disinfect pruning tools.",
+            "Remove severely affected wood where practical.",
+            "Avoid unnecessary large pruning wounds.",
+            "Maintain good vineyard sanitation."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Grape crop production and disease management",
+                "url": "https://agritech.tnau.ac.in/horticulture/horti_fruits_grapes.html"
+            }
+        ]
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+        "type": "disease",
+        "crop": "Grape",
+        "disease": "Leaf Blight (Isariopsis Leaf Spot)",
+        "fertilizer": {
+            "recommendation": "Balanced grape nutrition based on soil and tissue tests",
+            "quantity": "Use a vineyard-specific nutrient recommendation based on soil and tissue analysis.",
+            "note": "Fertilizer supports vine nutrition but does not cure leaf blight."
+        },
+        "treatment": {
+            "recommendation": "Use an integrated vineyard disease-management program and locally registered fungicides when recommended.",
+            "note": "Verify crop and disease registration and follow the current product label."
+        },
+        "prevention": [
+            "Remove diseased leaves and crop debris.",
+            "Improve canopy ventilation.",
+            "Avoid prolonged leaf wetness.",
+            "Use healthy planting material.",
+            "Monitor vines regularly."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Grape crop production and disease management",
+                "url": "https://agritech.tnau.ac.in/horticulture/horti_fruits_grapes.html"
+            }
+        ]
+    },
+    "Grape___healthy": {
+        "type": "healthy",
+        "crop": "Grape",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "Balanced vineyard nutrition based on soil and tissue tests",
+            "quantity": "Use a vineyard-specific fertilizer program based on soil and leaf or tissue testing.",
+            "note": "Avoid over-fertilization, especially excessive nitrogen."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular vineyard monitoring."
+        },
+        "prevention": [
+            "Maintain good canopy management.",
+            "Use balanced nutrition.",
+            "Monitor vines regularly.",
+            "Maintain vineyard sanitation.",
+            "Use appropriate irrigation and drainage."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Grape Horticulture and Crop Management",
+                "url": "https://agritech.tnau.ac.in/horticulture/horti_fruits_grapes.html"
+            }
+        ]
+    },
+    "Blueberry___healthy": {
+        "type": "healthy",
+        "crop": "Blueberry",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "Acid-loving crop fertilizer based on soil testing",
+            "quantity": "Determine fertilizer requirements using soil and plant testing rather than a universal dose.",
+            "note": "Maintain suitable acidic soil conditions and avoid excessive fertilizer."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular monitoring."
+        },
+        "prevention": [
+            "Maintain suitable acidic soil conditions.",
+            "Use disease-free planting material.",
+            "Control weeds around plants.",
+            "Provide suitable irrigation.",
+            "Monitor plants regularly."
+        ],
+        "sources": [
+            {
+                "organization": "University of Minnesota Extension",
+                "document": "Blueberry production guidance",
+                "url": "https://extension.umn.edu/"
+            }
+        ]
+    },
+    "Cherry_(including_sour)___Powdery_mildew": {
+        "type": "disease",
+        "crop": "Cherry",
+        "disease": "Powdery Mildew",
+        "fertilizer": {
+            "recommendation": "Balanced cherry nutrition based on soil-test results",
+            "quantity": "Use a soil-test-based orchard fertilizer recommendation.",
+            "note": "Avoid excessive nitrogen application."
+        },
+        "treatment": {
+            "recommendation": "Use a fungicide program appropriate for cherry powdery mildew where locally recommended.",
+            "note": "Follow the current product label and local agricultural guidance."
+        },
+        "prevention": [
+            "Maintain good canopy air circulation.",
+            "Avoid excessive nitrogen.",
+            "Remove affected plant material where practical.",
+            "Maintain orchard sanitation.",
+            "Monitor new growth."
+        ],
+        "sources": [
+            {
+                "organization": "Penn State Extension",
+                "document": "Tree fruit disease management",
+                "url": "https://extension.psu.edu/"
+            }
+        ]
+    },
+    "Cherry_(including_sour)___healthy": {
+        "type": "healthy",
+        "crop": "Cherry",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "Balanced cherry orchard nutrition",
+            "quantity": "Use soil-test and plant-tissue information to determine fertilizer needs.",
+            "note": "Avoid excessive nitrogen."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular orchard monitoring."
+        },
+        "prevention": [
+            "Maintain good orchard sanitation.",
+            "Prune to improve canopy structure.",
+            "Monitor for diseases and insects.",
+            "Maintain appropriate irrigation and drainage.",
+            "Use balanced nutrition."
+        ],
+        "sources": [
+            {
+                "organization": "Penn State Extension",
+                "document": "Tree fruit disease management",
+                "url": "https://extension.psu.edu/"
+            }
+        ]
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+        "type": "disease",
+        "crop": "Orange",
+        "disease": "Huanglongbing (Citrus Greening)",
+        "fertilizer": {
+            "recommendation": "Balanced citrus nutrition with correction of diagnosed nutrient deficiencies",
+            "quantity": "Use soil-test and crop-specific nutrient recommendations.",
+            "note": "Nutrient management can support tree health but does not cure Huanglongbing."
+        },
+        "treatment": {
+            "recommendation": "Use disease-free planting material and manage the citrus psyllid vector.",
+            "note": "Remove severely affected trees where recommended by local agricultural authorities."
+        },
+        "prevention": [
+            "Use disease-free planting material.",
+            "Monitor citrus psyllid populations.",
+            "Remove severely affected trees where recommended.",
+            "Maintain orchard sanitation.",
+            "Monitor new flushes regularly."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Citrus Greening Disease Management",
+                "url": "https://agritech.tnau.ac.in/crop_protection/citrus_diseases_5.html"
+            }
+        ]
+    },
+    "Peach___Bacterial_spot": {
+        "type": "disease",
+        "crop": "Peach",
+        "disease": "Bacterial Spot",
+        "fertilizer": {
+            "recommendation": "Balanced peach orchard nutrition",
+            "quantity": "Use soil-test-based nutrition and orchard-specific fertilizer recommendations.",
+            "note": "Fertilizer supports tree nutrition but does not cure bacterial spot."
+        },
+        "treatment": {
+            "recommendation": "Use an integrated bacterial-spot management program with registered products where locally recommended.",
+            "note": "Follow current local product labels and agricultural guidance."
+        },
+        "prevention": [
+            "Use healthy planting material.",
+            "Select less-susceptible varieties where available.",
+            "Maintain orchard sanitation.",
+            "Avoid unnecessary foliage wetness.",
+            "Monitor disease during favorable weather."
+        ],
+        "sources": [
+            {
+                "organization": "Penn State Extension",
+                "document": "Stone Fruit Disease - Bacterial Spot",
+                "url": "https://extension.psu.edu/"
+            }
+        ]
+    },
+    "Peach___healthy": {
+        "type": "healthy",
+        "crop": "Peach",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "Balanced peach orchard nutrition",
+            "quantity": "Use soil-test and plant-tissue information to determine fertilizer needs.",
+            "note": "Avoid unnecessary nutrient applications."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular orchard monitoring."
+        },
+        "prevention": [
+            "Use healthy planting material.",
+            "Maintain orchard sanitation.",
+            "Prune appropriately for canopy airflow.",
+            "Monitor regularly.",
+            "Maintain balanced nutrition."
+        ],
+        "sources": [
+            {
+                "organization": "Penn State Extension",
+                "document": "Stone Fruit Disease Management",
+                "url": "https://extension.psu.edu/"
+            }
+        ]
+    },
+    "Pepper,_bell___Bacterial_spot": {
+        "type": "disease",
+        "crop": "Pepper",
+        "disease": "Bacterial Spot",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer based on soil test",
+            "quantity": "Use a soil-test-based nutrient recommendation.",
+            "note": "Fertilizer supports plant nutrition but does not cure bacterial spot."
+        },
+        "treatment": {
+            "recommendation": "TNAU lists Mancozeb or Copper oxychloride for bacterial leaf spot management.",
+            "note": "Verify current registration and follow the product label."
+        },
+        "prevention": [
+            "Use disease-free seed.",
+            "Use healthy seedlings.",
+            "Maintain field sanitation.",
+            "Avoid handling plants when foliage is wet.",
+            "Avoid unnecessary overhead irrigation."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Chilli/Pepper Bacterial Leaf Spot",
+                "url": "https://www.agritech.tnau.ac.in/crop_protection/chilli_diseases_4.html"
+            }
+        ]
+    },
+    "Pepper,_bell___healthy": {
+        "type": "healthy",
+        "crop": "Pepper",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "Balanced NPK fertilizer based on soil-test results",
+            "quantity": "Use a soil-test-based nutrient recommendation.",
+            "note": "Avoid excessive nitrogen."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular crop monitoring."
+        },
+        "prevention": [
+            "Use healthy planting material.",
+            "Maintain balanced crop nutrition.",
+            "Monitor plants regularly.",
+            "Maintain field sanitation.",
+            "Use appropriate irrigation and drainage."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Pepper/Chilli Crop Protection",
+                "url": "https://agritech.tnau.ac.in/crop_protection/chilli_diseases_4.html"
+            }
+        ]
+    },
+    "Raspberry___healthy": {
+        "type": "healthy",
+        "crop": "Raspberry",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "Raspberry nutrient management using soil and foliar testing",
+            "quantity": "Adjust nitrogen and other nutrients using soil and foliar tests.",
+            "note": "Requirements vary with raspberry type, planting age and soil."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular pest and disease monitoring."
+        },
+        "prevention": [
+            "Use suitable irrigation.",
+            "Avoid unnecessary overhead irrigation.",
+            "Maintain suitable soil pH.",
+            "Monitor soil and plant nutrients.",
+            "Maintain field sanitation."
+        ],
+        "sources": [
+            {
+                "organization": "University of Minnesota Extension",
+                "document": "Irrigation and nutrient management for raspberries",
+                "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/raspberry-farming/irrigation-and-nutrient-management-for-raspberries"
+            }
+        ]
+    },
+    "Soybean___healthy": {
+        "type": "healthy",
+        "crop": "Soybean",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "NPKS fertilizer based on soil-test results",
+            "quantity": "Use a soil-test-based soybean nutrient recommendation.",
+            "note": "TNAU provides crop-specific NPKS examples; actual rates should follow local soil and production conditions."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular pest and disease monitoring."
+        },
+        "prevention": [
+            "Use healthy seed.",
+            "Use recommended biofertilizers where appropriate.",
+            "Avoid unnecessary nitrogen.",
+            "Maintain suitable soil moisture.",
+            "Monitor pests and diseases regularly."
+        ],
+        "sources": [
+            {
+                "organization": "Tamil Nadu Agricultural University (TNAU)",
+                "document": "Soybean Nutrient Management",
+                "url": "https://agritech.tnau.ac.in/agriculture/agri_nutrientmgt_soybean.html"
+            }
+        ]
+    },
+    "Squash___Powdery_mildew": {
+        "type": "disease",
+        "crop": "Squash",
+        "disease": "Powdery Mildew",
+        "fertilizer": {
+            "recommendation": "Balanced fertilizer based on soil-test results",
+            "quantity": "Apply fertilizer according to soil-test recommendations and avoid excessive nitrogen.",
+            "note": "Fertilizer supports nutrition but does not cure powdery mildew."
+        },
+        "treatment": {
+            "recommendation": "Begin disease management when powdery mildew is detected and use locally registered fungicides where recommended.",
+            "note": "Follow the current product label."
+        },
+        "prevention": [
+            "Use resistant varieties where available.",
+            "Provide good air movement.",
+            "Control weeds that reduce air circulation.",
+            "Avoid excessive nitrogen.",
+            "Monitor leaves regularly."
+        ],
+        "sources": [
+            {
+                "organization": "University of Minnesota Extension",
+                "document": "Powdery mildew of cucurbits",
+                "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/powdery-mildew-of-cucurbits"
+            }
+        ]
+    },
+    "Strawberry___Leaf_scorch": {
+        "type": "disease",
+        "crop": "Strawberry",
+        "disease": "Leaf Scorch",
+        "fertilizer": {
+            "recommendation": "Balanced strawberry nutrition based on soil and foliar testing",
+            "quantity": "Use soil and foliar testing to determine nutrient requirements.",
+            "note": "Do not assume leaf scorch is caused by fertilizer deficiency."
+        },
+        "treatment": {
+            "recommendation": "Use integrated disease management and locally recommended treatments after confirming the disease.",
+            "note": "Follow the current product label."
+        },
+        "prevention": [
+            "Remove diseased leaves and debris where practical.",
+            "Maintain good airflow.",
+            "Avoid excessive leaf wetness.",
+            "Use healthy planting material.",
+            "Maintain suitable soil moisture and drainage."
+        ],
+        "sources": [
+            {
+                "organization": "University of Minnesota Extension",
+                "document": "Strawberry nutrient management",
+                "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/strawberry-farming/strawberry-nutrient-management"
+            }
+        ]
+    },
+    "Strawberry___healthy": {
+        "type": "healthy",
+        "crop": "Strawberry",
+        "disease": "Healthy",
+        "fertilizer": {
+            "recommendation": "Balanced strawberry fertilizer program based on soil testing",
+            "quantity": "Use soil and foliar testing to determine nutrient needs.",
+            "note": "Avoid over-fertilization, especially excessive nitrogen."
+        },
+        "treatment": {
+            "recommendation": "No disease treatment is indicated by the model.",
+            "note": "Continue regular crop monitoring."
+        },
+        "prevention": [
+            "Use healthy planting material.",
+            "Maintain balanced nutrition.",
+            "Maintain suitable soil pH.",
+            "Provide good drainage.",
+            "Monitor plants regularly."
+        ],
+        "sources": [
+            {
+                "organization": "University of Minnesota Extension",
+                "document": "Strawberry nutrient management",
+                "url": "https://extension.umn.edu/agriculture/specialty-crops/commercial-fruit-production/strawberry-farming/strawberry-nutrient-management"
+            }
+        ]
+    }
+}
