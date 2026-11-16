@@ -44,7 +44,11 @@ import {
 const API_HOST = window.location.hostname || "127.0.0.1";
 const API_PROTOCOL = window.location.protocol === "https:" ? "https:" : "http:";
 const LOCAL_API_URL = `${API_PROTOCOL}//${API_HOST}:8000`;
-const API_URL = (import.meta.env.VITE_API_URL || LOCAL_API_URL).replace(/\/$/, "");
+// In production, use same-origin /api paths routed by vercel.json.
+// This lets the browser store/send the HttpOnly session cookie on the Vercel domain.
+const API_URL = import.meta.env.PROD
+  ? ""
+  : (import.meta.env.VITE_API_URL || LOCAL_API_URL).replace(/\/$/, "");
 
 // Send the HTTP-only authentication cookie with every backend request.
 const apiFetch = (input, init = {}) => globalThis.fetch(input, {
