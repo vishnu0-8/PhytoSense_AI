@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://phytosense-ai.onrender.com/api/$1"
+    }
+  ]
+}
