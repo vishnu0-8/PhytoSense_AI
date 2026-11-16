@@ -28,7 +28,6 @@ from database.history import (
     create_user,
     get_user_by_id,
     update_user_profile,
-    update_user_password_hash,
 )
 from auth import (
     COOKIE_NAME,
@@ -38,8 +37,6 @@ from auth import (
     decode_access_token,
     public_user,
     register_farmer,
-    verify_password,
-    hash_password,
 )
 
 
@@ -72,14 +69,23 @@ app = FastAPI(
     version="2.0.0",
 )
 
-# Comma-separated origins: local development by default, production URL via env.
-_cors_origins = os.getenv(
-    "CORS_ORIGINS",
-    "http://localhost:5173,http://127.0.0.1:5173",
-)
+# Production frontend URL is supplied through CORS_ORIGINS on Render.
+# Local origins remain available for development.
+_configured_origins = [
+    origin.strip().rstrip("/")
+    for origin in os.getenv("CORS_ORIGINS", "").split(",")
+    if origin.strip()
+]
+_allowed_origins = list(dict.fromkeys([
+    "https://phytosenseai-frontend.vercel.app",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    *_configured_origins,
+]))
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[origin.strip().rstrip("/") for origin in _cors_origins.split(",") if origin.strip()],
+    allow_origins=_allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -142,11 +148,6 @@ class ProfileUpdateRequest(BaseModel):
     state: str | None = Field(default=None, max_length=100)
 
 
-class PasswordChangeRequest(BaseModel):
-    current_password: str = Field(min_length=1, max_length=128)
-    new_password: str = Field(min_length=8, max_length=128)
-
-
 def get_current_user(request: Request):
     token = request.cookies.get(COOKIE_NAME)
     payload = decode_access_token(token) if token else None
@@ -177,7 +178,7 @@ def register(request: RegisterRequest, response: Response):
         value=token,
         httponly=True,
         secure=os.getenv("AUTH_COOKIE_SECURE", "false").lower() == "true",
-        samesite="lax",
+        samesite="none",
         max_age=TOKEN_TTL_SECONDS,
         path="/",
     )
@@ -195,7 +196,7 @@ def login(request: LoginRequest, response: Response):
         value=token,
         httponly=True,
         secure=os.getenv("AUTH_COOKIE_SECURE", "false").lower() == "true",
-        samesite="lax",
+        samesite="none",
         max_age=TOKEN_TTL_SECONDS,
         path="/",
     )
@@ -208,7 +209,7 @@ def logout(response: Response):
         key=COOKIE_NAME,
         httponly=True,
         secure=os.getenv("AUTH_COOKIE_SECURE", "false").lower() == "true",
-        samesite="lax",
+        samesite="none",
         path="/",
     )
     return {"success": True, "message": "Logged out."}
@@ -234,33 +235,6 @@ def update_farmer_profile(
     if not updated:
         raise HTTPException(status_code=404, detail="Account not found.")
     return {"success": True, "user": public_user(get_user_by_id(user["id"]))}
-
-
-@app.post("/api/auth/change-password")
-def change_farmer_password(
-    request: PasswordChangeRequest,
-    response: Response,
-    user=Depends(get_current_user),
-):
-    # Require the current password before allowing a credential change.
-    if not verify_password(user["password_hash"], request.current_password):
-        raise HTTPException(status_code=400, detail="Current password is incorrect.")
-    if request.current_password == request.new_password:
-        raise HTTPException(status_code=400, detail="New password must be different from the current password.")
-    changed = update_user_password_hash(user["id"], hash_password(request.new_password))
-    if not changed:
-        raise HTTPException(status_code=404, detail="Account not found.")
-    # Refresh the current browser's session after a successful password change.
-    response.set_cookie(
-        key=COOKIE_NAME,
-        value=create_access_token(user["id"]),
-        httponly=True,
-        secure=os.getenv("AUTH_COOKIE_SECURE", "false").lower() == "true",
-        samesite="lax",
-        max_age=TOKEN_TTL_SECONDS,
-        path="/",
-    )
-    return {"success": True, "message": "Password changed successfully."}
 
 
 
