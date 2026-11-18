@@ -50,12 +50,21 @@ const API_URL = import.meta.env.PROD
   ? ""
   : (import.meta.env.VITE_API_URL || LOCAL_API_URL).replace(/\/$/, "");
 
-// Send the HTTP-only authentication cookie with every backend request.
-const apiFetch = (input, init = {}) => globalThis.fetch(input, {
-  ...init,
-  // Always include the farmer's HttpOnly session cookie.
-  credentials: "include",
-});
+// Include the HTTP-only session cookie only for PlantAI API requests.
+// External services (for example Open-Meteo) must not receive credentials,
+// because many public APIs use Access-Control-Allow-Origin: *.
+const apiFetch = (input, init = {}) => {
+  const requestUrl = new URL(input, window.location.href);
+  const apiOrigin = import.meta.env.PROD
+    ? window.location.origin
+    : new URL(API_URL).origin;
+  const isPlantApiRequest = requestUrl.origin === apiOrigin;
+
+  return globalThis.fetch(input, {
+    ...init,
+    credentials: isPlantApiRequest ? "include" : "omit",
+  });
+};
 
 
 // ======================================================
@@ -306,10 +315,12 @@ function DiseaseDetectionPage() {
         body: formData,
       });
 
-      const data = await response.json();
+      const data = await response.json().catch(() => ({}));
 
       if (!response.ok) {
-        throw new Error(data.detail || "Disease detection failed.");
+        throw new Error(
+          data.detail || `Disease detection failed (HTTP ${response.status}). The backend may be unavailable.`
+        );
       }
 
       setResult(data);
@@ -2828,7 +2839,12 @@ function FarmerAuthScreen({ onAuthenticated }) {
         body: JSON.stringify(payload),
       });
       const data = await response.json().catch(() => ({}));
-      if (!response.ok) throw new Error(data.detail || (mode === "register" ? "Registration failed." : "Login failed."));
+      if (!response.ok) {
+        const action = mode === "register" ? "Registration" : "Login";
+        throw new Error(
+          data.detail || `${action} failed (HTTP ${response.status}). The backend may be unavailable.`
+        );
+      }
       onAuthenticated(data.user);
     } catch (err) {
       setError(err.message || "Unable to connect to PlantAI. Check that the backend is running.");

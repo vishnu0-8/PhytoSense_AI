@@ -178,7 +178,7 @@ def register(request: RegisterRequest, response: Response):
         value=token,
         httponly=True,
         secure=os.getenv("AUTH_COOKIE_SECURE", "false").lower() == "true",
-        samesite="none",
+        samesite="lax",
         max_age=TOKEN_TTL_SECONDS,
         path="/",
     )
@@ -196,7 +196,7 @@ def login(request: LoginRequest, response: Response):
         value=token,
         httponly=True,
         secure=os.getenv("AUTH_COOKIE_SECURE", "false").lower() == "true",
-        samesite="none",
+        samesite="lax",
         max_age=TOKEN_TTL_SECONDS,
         path="/",
     )
@@ -209,7 +209,7 @@ def logout(response: Response):
         key=COOKIE_NAME,
         httponly=True,
         secure=os.getenv("AUTH_COOKIE_SECURE", "false").lower() == "true",
-        samesite="none",
+        samesite="lax",
         path="/",
     )
     return {"success": True, "message": "Logged out."}
@@ -467,7 +467,9 @@ async def detect_disease(
         # PREDICTION
         # ---------------------------------------------
 
-        with torch.inference_mode():
+        # Use no_grad for the prediction pass rather than inference_mode.
+        # Grad-CAM performs a second forward pass with autograd enabled below.
+        with torch.no_grad():
 
             output = model(tensor)
 
