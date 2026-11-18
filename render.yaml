@@ -2,7 +2,7 @@ services:
   - type: web
     name: plantai-api
     runtime: python
-    plan: starter
+    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /api/health
@@ -13,13 +13,9 @@ services:
         generateValue: true
       - key: AUTH_COOKIE_SECURE
         value: "true"
-      - key: DATABASE_PATH
-        value: /var/data/detection_history.db
+      - key: DATABASE_URL
+        sync: false
       - key: CORS_ORIGINS
         sync: false
       - key: GROQ_API_KEY
         sync: false
-    disk:
-      name: plantai-data
-      mountPath: /var/data
-      sizeGB: 1

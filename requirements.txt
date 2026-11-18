@@ -10,3 +10,6 @@ numpy
 matplotlib
 groq
 argon2-cffi>=23.1.0
+
+# PostgreSQL driver for Neon production database
+psycopg[binary]>=3.2,<4
